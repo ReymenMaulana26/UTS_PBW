@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SuryaBook.id</title>
+    <link rel="stylesheet" href="app.css">
+</head>
+<body>
+    <!-- Load Bootstrap CSS dari CDN -->
+    <link rel="stylesheet"
+    href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/css/bootstrap.min.css">
+    
+
+    <!-- Navbar-->
+    <nav class="navbar sticky-top navbar-expand-lg bg-white border-bottom p-4">
+        <div class="container">
+          <img src="Images/logo.png" alt="LOGO" class="img-fluid rounded shadow-ig" style="width: 60px; padding: 0px; 0px; 0px; 0px;">
+            <ul class="navbar-nav">
+                <a class="nav-link active" aria-current="page" href="#home">Home</a>
+                <a class="nav-link" href="Menu.html">Menu</a>
+                <a class="nav-link" href="About.html">About Us</a>
+                <a class="nav-link" href="#contact">Contact Us</a>
+            </ul>
+        </div>
+      </nav>
+      
+
+
+
+      <!--Homepage-->
+      <section id="home" >
+      <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="true">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="Images/karosel 1.jpg" class="d-block w-100" alt="">
+          </div>
+          <div class="carousel-item">
+            <img src="Images/karosel 2.PNG" class="d-block w-100" alt="">
+          </div>
+          <div class="carousel-item">
+            <img src="Images/karosel 3.jpg" class="d-block w-100" alt="">
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+
+      <!--Slider 1-->
+      <div class="slider">
+        <div class="container">
+          <h2>Buku Best Seller</h2>
+        <div class="slides">
+          <div><img src="Images/best_seller 1.jpg" alt=""></div>
+          <div><img src="Images/best_seller 2.jpg" alt=""></div>
+          <div><img src="Images/best_seller 3.jpg" alt=""></div>
+          <div><img src="Images/best_seller 4.jpg" alt=""></div>
+          <div><img src="Images/best_seller 5.jpg" alt=""></div>
+          <div><img src="Images/best_seller 6.jpg" alt=""></div>
+          <div><img src="Images/best_seller 7.jpg" alt=""></div>
+          <div><img src="Images/best_seller 8.jpg" alt=""></div>
+          <div><a href="Menu.html">Lihat Lebih Banyak</a></div>
+        </div>
+        </div>
+      </div>
+
+      <!--Slider 2-->
+      <div class="slider">
+        <div class="container">
+          <h2>Rekomendasi Buku</h2>
+        <div class="slides">
+          <div><img src="Images/rekomendasi 1.jpg" alt=""></div>
+          <div><img src="Images/rekomendasi 2.jpg" alt=""></div>
+          <div><img src="Images/rekomendasi 3.jpg" alt=""></div>
+          <div><img src="Images/rekomendasi 4.jpg" alt=""></div>
+          <div><img src="Images/diskon 1.jpg" alt=""></div>
+          <div><img src="Images/diskon 2.jpg" alt=""></div>
+          <div><img src="Images/diskon 3.jpg" alt=""></div>
+          <div><img src="Images/diskon 4.jpg" alt=""></div>
+          <div><a href="Menu.html">Lihat Lebih Banyak</a></div>
+        </div>
+        </div>
+      </div>
+      </section>
+    
+       
+      <!--Pemesanana-->
+      <section id="pemesanan" class="pemesanan">
+      
+      <div class="row">
+        <h2>Pemesanan Buku</h2>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d990.4978365645742!2d108.32304283944416!3d-6.770906252474701!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sid!2sid!4v1681545877958!5m2!1sid!2sid" allowfullscreeen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" class="map"></iframe>
+        <form action="">
+          <div class="input-group">
+            <input type="text" placeholder="Nama">
+          </div>
+          <div class="input-group">
+            <input type="text" placeholder="E-mail">
+          </div>
+          <div class="input-group">
+            <input type="text" placeholder="No HP">
+          </div>
+          <div class="input-group">
+            <input type="text" placeholder="Judul Buku">
+          </div>
+          <div class="input-group">
+            <input type="text" placeholder="Jumlah Pemesanan">
+          </div>
+          <button type="submit" class="btn" onclick="FuncPesanan()">Kirim Pemesanan</button>
+        </form>
+      </div>
+    </section>
+  
+
+      <!--Footer-->
+      <section id="contact" >
+        <div class="container">
+        <div style="margin-top: 30px;">
+          <footer>
+            <div class="row">
+              <div class="col">
+                <img src="Images/logo.png" alt="logo WP" style="width: 200px;">
+              </div>
+              <div class="col">
+                <h3>Office <div class="underline"></div></h3>
+                <p>Surya Book</p>
+                <p>Jl. Sudi mampir, No. 89</p>
+                <p>Bandung</p>
+                <p class="email-id">
+                  <a href="mailto:2110631170140@student.unsika.ac.id">SuryaBook.ac.id</a></p>
+                <strong>
+                  <a href="https://wa.me/6281234567890">+62 8123-456-7890</a>
+                </strong>
+              </div>
+              <div class="col">
+                <h3>Links <div class="underline"></div></h3>
+                <ul>
+                  <li><a href="#">Beranda</a></li>
+                  <li><a href="#">Layanan</a></li>
+                  <li><a href="#">Tentang Kami</a></li>
+                  <li><a href="#">Features</a></li> 
+                  <li><a href="#">Hubungi Kami</a></li>
+                </ul>
+              </div>
+              <div class="col">
+                <h3>Newsletter <div class="underline"></div></h3>
+                <form>
+                  <i class="far fa-envelope"></i>
+                  <input type="email" placeholder="Enter your email id" required>
+                  <button type="submit"><i class="fas fa-arrow-right"></i></button>
+                </form>
+              </div>
+            </div>
+            <hr>
+            <p class="copyright">SuryaBook © 2023 - All Rights Reserved</p>
+          </footer>
+        </div>
+        </div>
+        </div>
+      </section>
+
+
+      
+
+      <!--JavaScript-->
+      <script src="app.js"></script>
+      <!-- Load Bootstrap JS dari CDN -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
+</body>
+</html>
